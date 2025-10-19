@@ -1,6 +1,4 @@
-import { Mail, Phone, Calendar, MapPin, Facebook, Twitter, Instagram, X, Sun, Moon } from "lucide-react";
-import { useState } from "react";
-import { useTheme } from "next-themes";
+import { Mail, Phone, Calendar, MapPin, Facebook, Twitter, Instagram, X } from "lucide-react";
 import avatar from "@/assets/avatar.png";
 
 interface ProfileSidebarProps {
@@ -9,15 +7,6 @@ interface ProfileSidebarProps {
 }
 
 const ProfileSidebar = ({ isOpen, onClose }: ProfileSidebarProps) => {
-  const { theme, setTheme } = useTheme();
-  const [isToggling, setIsToggling] = useState(false);
-
-  const handleThemeToggle = () => {
-    setIsToggling(true);
-    setTheme(theme === "dark" ? "light" : "dark");
-    setTimeout(() => setIsToggling(false), 600);
-  };
-
   const contactInfo = [
     { icon: Mail, label: "EMAIL", value: "richard@example.com", href: "mailto:richard@example.com" },
     { icon: Phone, label: "PHONE", value: "+1 (213) 352-2795", href: "tel:+12133522795" },
@@ -104,30 +93,6 @@ const ProfileSidebar = ({ isOpen, onClose }: ProfileSidebarProps) => {
                 <div key={index}>{content}</div>
               );
             })}
-          </div>
-
-          {/* Divider */}
-          <div className="h-px bg-border mb-6" />
-
-          {/* Theme Toggle Button */}
-          <div className="mb-6 flex justify-center">
-            <button
-              onClick={handleThemeToggle}
-              className="relative w-16 h-8 rounded-full bg-gradient-accent p-1 shadow-accent transition-all duration-300 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-card"
-              aria-label="Toggle theme"
-            >
-              <div
-                className={`absolute inset-1 w-6 h-6 rounded-full bg-card shadow-lg transition-all duration-500 ease-out flex items-center justify-center ${
-                  theme === "dark" ? "translate-x-0" : "translate-x-8"
-                } ${isToggling ? "scale-90" : "scale-100"}`}
-              >
-                {theme === "dark" ? (
-                  <Moon className={`w-4 h-4 text-primary transition-all duration-300 ${isToggling ? "rotate-180" : "rotate-0"}`} />
-                ) : (
-                  <Sun className={`w-4 h-4 text-primary transition-all duration-300 ${isToggling ? "rotate-180" : "rotate-0"}`} />
-                )}
-              </div>
-            </button>
           </div>
 
           {/* Divider */}

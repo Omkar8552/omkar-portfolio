@@ -31,7 +31,7 @@ const Competitions = () => {
       description: "Developed an innovative solution for campus resource management using modern web technologies. Built a full-stack application that streamlined academic processes and improved student engagement.",
       date: "March 2024",
       achievement: "Winner - Best Innovation",
-      link: "https://example.com/college-hackathon",
+      link: "https://csi.coep.org.in/#/eventPage/2024-25",
     },
     {
       title: "GenAI Hackathon 2024",
@@ -40,23 +40,7 @@ const Competitions = () => {
       description: "Created an AI-powered application leveraging generative AI models to solve real-world problems. Implemented advanced NLP techniques and integrated multiple AI APIs for enhanced functionality.",
       date: "January 2024",
       achievement: "Top 10 Finalist",
-      link: "https://example.com/genai-hackathon",
-    },
-    {
-      title: "Smart India Hackathon",
-      category: "Hackathon",
-      image: "🇮🇳",
-      description: "Participated in India's biggest hackathon addressing national-level challenges. Developed solutions for government initiatives using cutting-edge technology stack.",
-      date: "December 2023",
-      achievement: "Participant",
-    },
-    {
-      title: "Code Sprint 2023",
-      category: "Coding Competition",
-      image: "⚡",
-      description: "Competitive programming challenge focusing on algorithmic problem-solving and optimization. Solved complex data structures and algorithm challenges under time constraints.",
-      date: "September 2023",
-      achievement: "Top 25",
+      link: "https://mumbaihacks.com/",
     },
   ];
 

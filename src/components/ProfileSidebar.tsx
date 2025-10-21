@@ -1,10 +1,23 @@
-import { Mail, Phone, Calendar, MapPin, Facebook, Twitter, Instagram, X } from "lucide-react";
+import { Mail, Phone, Calendar, MapPin, Facebook, Instagram, Linkedin, X } from "lucide-react";
 import avatar from "@/assets/avatar.png";
+import avatar2 from "@/assets/omkar.jpg";
 
 interface ProfileSidebarProps {
   isOpen: boolean;
   onClose: () => void;
 }
+
+// LeetCode SVG Icon Component
+const LeetCodeIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 512 512"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path d="M256 0C114.624 0 0 114.624 0 256s114.624 256 256 256 256-114.624 256-256S397.376 0 256 0zm86.816 366.976c-7.744 7.744-20.48 7.744-28.224 0l-44.8-44.8a20.096 20.096 0 0 1 0-28.16c7.744-7.744 20.48-7.744 28.224 0l44.8 44.8c7.744 7.744 7.744 20.48 0 28.16zM268.48 216c0-11.52-9.408-20.928-20.928-20.928h-91.648a20.928 20.928 0 1 0 0 41.856h91.648A20.928 20.928 0 0 0 268.48 216zM392.32 152.704a20.928 20.928 0 0 0-29.568 0l-64.512 64.512a20.928 20.928 0 0 0 29.568 29.568l64.512-64.512a20.928 20.928 0 0 0 0-29.568z"/>
+  </svg>
+);
 
 const ProfileSidebar = ({ isOpen, onClose }: ProfileSidebarProps) => {
   const contactInfo = [
@@ -15,8 +28,8 @@ const ProfileSidebar = ({ isOpen, onClose }: ProfileSidebarProps) => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Twitter, href: "#", label: "Twitter" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/omkar-kumbhar-b0035428b/", label: "LinkedIn" },
+    { icon: LeetCodeIcon, href: "https://leetcode.com/u/omkar__3351/", label: "LeetCode" },
     { icon: Instagram, href: "#", label: "Instagram" },
   ];
 
@@ -51,7 +64,7 @@ const ProfileSidebar = ({ isOpen, onClose }: ProfileSidebarProps) => {
           <div className="text-center mb-8">
             <div className="w-32 h-32 mx-auto mb-4 rounded-3xl overflow-hidden bg-gradient-accent p-1">
               <img 
-                src={avatar} 
+                src={avatar2} 
                 alt="Omkar Kumbhar"
                 className="w-full h-full object-cover rounded-3xl"
               />

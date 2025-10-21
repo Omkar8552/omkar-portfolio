@@ -35,8 +35,8 @@ const Portfolio = () => {
       color: "from-blue-500/20 to-blue-600/20",
       description: "A career guidance platform offering interview prep, resume builder, career insights, and cover letter generation.",
       timeline: "January 2024 - April 2024",
-      liveUrl: "https://elevate-ai.vercel.app",
-      githubUrl: "https://github.com/omkumbhar78/elevate-ai",
+      liveUrl: "https://aiforcarrier.vercel.app/",
+      githubUrl: "https://github.com/Omkar8552/Elevate-AI",
     },
     {
       title: "Google Drive Clone",
@@ -45,8 +45,8 @@ const Portfolio = () => {
       color: "from-purple-500/20 to-purple-600/20",
       description: "A secure file storage system with authentication, upload/download functionality, and performance optimization.",
       timeline: "October 2023 - December 2023",
-      liveUrl: "https://drive-clone.vercel.app",
-      githubUrl: "https://github.com/omkumbhar78/google-drive-clone",
+      liveUrl: "https://storage-management-solution-plum.vercel.app/",
+      githubUrl: "https://github.com/Omkar8552/storage_management_solution",
     },
   ];
 

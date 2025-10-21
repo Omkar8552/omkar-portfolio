@@ -5,7 +5,7 @@ This website serves as my professional identity — highlighting my journey as a
 
 🚀 Project Overview
 
-Live URL: https://omkar-portfolio-m62upqj3o-omkumbhar78-gmailcoms-projects.vercel.app/
+Live URL: https://omkars-personal-portfolio.netlify.app/
 
 This portfolio is designed to be clean, fast, and interactive — featuring:
 

@@ -5,7 +5,7 @@ This website serves as my professional identity — highlighting my journey as a
 
 🚀 Project Overview
 
-Live URL: https://lovable.dev/projects/963cf061-bcaa-4894-b791-5e0fabd52c22
+Live URL: https://omkar-portfolio-m62upqj3o-omkumbhar78-gmailcoms-projects.vercel.app/
 
 This portfolio is designed to be clean, fast, and interactive — featuring:
 
@@ -15,9 +15,9 @@ This portfolio is designed to be clean, fast, and interactive — featuring:
 
 💼 Internship & Experience section
 
-🚀 Projects / Portfolio with detailed pop-up modals
+🚀 Projects / Portfolio page
 
-🏆 Competitions page (replaced from the vlog page)
+🏆 Competitions page 
 
 📍 Contact page with map and working email integration
 

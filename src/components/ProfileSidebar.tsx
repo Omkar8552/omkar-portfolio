@@ -8,10 +8,10 @@ interface ProfileSidebarProps {
 
 const ProfileSidebar = ({ isOpen, onClose }: ProfileSidebarProps) => {
   const contactInfo = [
-    { icon: Mail, label: "EMAIL", value: "richard@example.com", href: "mailto:richard@example.com" },
-    { icon: Phone, label: "PHONE", value: "+1 (213) 352-2795", href: "tel:+12133522795" },
-    { icon: Calendar, label: "BIRTHDAY", value: "June 23, 1982" },
-    { icon: MapPin, label: "LOCATION", value: "Sacramento, California, USA" },
+    { icon: Mail, label: "EMAIL", value: "omkumbhar78@gmail.com", href: "mailto:omkumbhar78@gmail.com" },
+    { icon: Phone, label: "PHONE", value: "8552914767", href: "tel:8552914767" },
+    { icon: Calendar, label: "BIRTHDAY", value: "June 13, 2005" },
+    { icon: MapPin, label: "LOCATION", value: "Pune, Maharashtra, India" },
   ];
 
   const socialLinks = [
@@ -52,11 +52,11 @@ const ProfileSidebar = ({ isOpen, onClose }: ProfileSidebarProps) => {
             <div className="w-32 h-32 mx-auto mb-4 rounded-3xl overflow-hidden bg-gradient-accent p-1">
               <img 
                 src={avatar} 
-                alt="Richard Hanrick"
+                alt="Omkar Kumbhar"
                 className="w-full h-full object-cover rounded-3xl"
               />
             </div>
-            <h1 className="text-xl font-bold text-foreground mb-1">Richard Hanrick</h1>
+            <h1 className="text-xl font-bold text-foreground mb-1">Omkar Kumbhar</h1>
             <p className="text-sm bg-secondary px-4 py-2 rounded-lg inline-block text-muted-foreground">
               Web Developer
             </p>

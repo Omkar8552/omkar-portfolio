@@ -10,6 +10,7 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    subject: "",
     message: "",
   });
 
@@ -17,7 +18,7 @@ const Contact = () => {
     e.preventDefault();
     
     // Basic validation
-    if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
+    if (!formData.name.trim() || !formData.email.trim() || !formData.subject.trim() || !formData.message.trim()) {
       toast({
         title: "Error",
         description: "Please fill in all fields",
@@ -37,12 +38,14 @@ const Contact = () => {
       return;
     }
 
+    // Send email using EmailJS or similar service
+    // For now, showing success message
     toast({
       title: "Message sent!",
       description: "Thank you for your message. I'll get back to you soon.",
     });
 
-    setFormData({ name: "", email: "", message: "" });
+    setFormData({ name: "", email: "", subject: "", message: "" });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -56,15 +59,18 @@ const Contact = () => {
     <div className="animate-fade-in">
       <h2 className="text-3xl font-bold mb-8 text-foreground">Contact</h2>
 
-      {/* Map placeholder */}
+      {/* Map */}
       <div className="mb-8 h-80 bg-secondary rounded-2xl overflow-hidden relative">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center">
-            <div className="text-6xl mb-4">🗺️</div>
-            <p className="text-muted-foreground">Interactive Map</p>
-            <p className="text-sm text-muted-foreground">Sacramento, California</p>
-          </div>
-        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.18174283202!2d73.69814959999999!3d18.5204303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="rounded-2xl"
+        />
       </div>
 
       {/* Contact form */}
@@ -93,6 +99,17 @@ const Contact = () => {
                 className="bg-secondary border-border h-12 rounded-xl px-4 focus:border-primary transition-colors"
               />
             </div>
+          </div>
+
+          <div>
+            <Input
+              type="text"
+              name="subject"
+              placeholder="Subject"
+              value={formData.subject}
+              onChange={handleChange}
+              className="bg-secondary border-border h-12 rounded-xl px-4 focus:border-primary transition-colors"
+            />
           </div>
 
           <div>

@@ -24,43 +24,43 @@ const Resume = () => {
 
   const education = [
     {
-      institution: "University School of the Arts",
-      degree: "Bachelor of Fine Arts",
-      period: "2007 — 2008",
-      description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.",
+      institution: "COEP Technological University, Pune",
+      degree: "Bachelor of Technology",
+      period: "2022 — 2026",
+      description: "One of India's oldest and most prestigious engineering institutions, renowned for innovation and research.",
     },
     {
-      institution: "New York Academy of Art",
-      degree: "Master of Fine Arts",
-      period: "2006 — 2007",
-      description: "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis.",
+      institution: "Government Polytechnic, Kolhapur",
+      degree: "Diploma in Computer Engineering",
+      period: "2019 — 2022",
+      description: "A reputed autonomous institute offering practical, industry-focused technical education.",
     },
     {
-      institution: "High School of Art and Design",
-      degree: "Diploma",
-      period: "2002 — 2004",
-      description: "Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.",
+      institution: "Dr. Hedgewar Madhyamik Vidyalaya, Mangoli",
+      degree: "Secondary Education",
+      period: "2015 — 2019",
+      description: "A respected state-board school known for its strong academic foundation and values.",
     },
   ];
 
   const experience = [
     {
-      title: "Creative Director",
-      company: "Studio Inc.",
-      period: "2015 — Present",
-      description: "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.",
+      title: "Web Development Intern",
+      company: "Softron",
+      period: "May 2025 — Jul 2025",
+      description: "Developed responsive web apps using React.js, Tailwind CSS, and RESTful APIs to enhance user experience.",
     },
     {
-      title: "Art Director",
-      company: "Design Studio",
-      period: "2013 — 2015",
-      description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.",
+      title: "AI/ML Intern",
+      company: "Softron",
+      period: "May 2023 — Jun 2023",
+      description: "Built and optimized ML models using Python and OpenCV with high detection accuracy.",
     },
     {
-      title: "Web Designer",
-      company: "Creative Agency",
-      period: "2010 — 2013",
-      description: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.",
+      title: "Android Developer Intern",
+      company: "Softron",
+      period: "Jan 2024 — Mar 2024",
+      description: "Developed Android apps using Java, XML, and Retrofit with OCR and API integration.",
     },
   ];
 

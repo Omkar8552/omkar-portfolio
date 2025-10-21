@@ -21,7 +21,7 @@ const Navigation = ({ onMenuClick }: NavigationProps) => {
     { path: "/", label: "About" },
     { path: "/resume", label: "Resume" },
     { path: "/portfolio", label: "Portfolio" },
-    { path: "/blog", label: "Blog" },
+    { path: "/competitions", label: "Competitions" },
     { path: "/contact", label: "Contact" },
   ];
 

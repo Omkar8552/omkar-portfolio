@@ -7,7 +7,7 @@ import Layout from "./components/Layout";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
-import Blog from "./pages/Blog";
+import Competitions from "./pages/Competitions";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -24,7 +24,7 @@ const App = () => (
             <Route index element={<About />} />
             <Route path="resume" element={<Resume />} />
             <Route path="portfolio" element={<Portfolio />} />
-            <Route path="blog" element={<Blog />} />
+            <Route path="competitions" element={<Competitions />} />
             <Route path="contact" element={<Contact />} />
           </Route>
           <Route path="*" element={<NotFound />} />

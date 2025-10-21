@@ -45,13 +45,10 @@ const About = () => {
       <section className="mb-12">
         <h2 className="text-3xl font-bold mb-6 text-foreground">About Me</h2>
         <p className="text-muted-foreground leading-relaxed mb-4">
-          I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-          I enjoy turning complex problems into simple, beautiful and intuitive designs.
+          I’m a Java Developer with strong skills in building scalable and responsive web applications. I work with Java, Spring Boot, React.js, and Tailwind CSS to create efficient, user-focused solutions. I’m passionate about clean code, problem-solving, and performance optimization.
         </p>
         <p className="text-muted-foreground leading-relaxed">
-          My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-          Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-          across your message and identity in the most creative way. I created web design for many famous brand companies.
+          Currently pursuing B.Tech in Computer Engineering at COEP, I’ve interned at Softron in Web Development and AI/ML, and built projects like Elevate AI and a Google Drive Clone. I’ve also participated in national hackathons and contributed to open-source programs like GSSoC and Open Source Connect India.
         </p>
       </section>
 
